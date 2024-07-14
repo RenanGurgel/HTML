@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title>game</title>
+	</head>
+	<body>
+		<header></header>
+		<section>
+		<form method="post" action="recebe.php">
+		<label for="nome">Nome:</label><input type="text" name="nome" id="nome"><br>
+		<label for="data">Lançamento:</label><input type="date" name="data" id="data"><br>
+		<label for="plataforma">Plataforma:</label>
+		<select name="plataforma" id="plataforma">
+		<option value="branco" disabled selected>------------</option>
+		<option value="ps4">PS4</option>
+		<option value="ps5">PS5</option>
+		<option value="computador">Computador</option>
+		<option value="xbox one">Xbox One</option>
+		<option value="xbox s">Xbox series S</option>
+		<option value="xbox x">Xbox series X</option>
+		</select>
+		<button type="submit">Enviar</button>
+		</form>
+		</section>
+	</body>
+</html>
